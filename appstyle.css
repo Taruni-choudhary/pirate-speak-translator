@@ -1,0 +1,107 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,400;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@400;600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary:#D1D5DB;
+    --black: #333333;
+    --width-break:600px
+}
+
+body {
+    margin: 0;
+    /* font-family: 'Kalam', cursive; */
+    /* font-family: 'PT Sans', sans-serif; */
+    font-family: 'Taviraj', serif;
+    color: #333333;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea  {
+    box-sizing: border-box;
+    display: block;
+    width: 110%;
+    min-height: 20vh;
+    margin-top:2rem;
+    font-size: large;
+    font-family: inherit;
+    
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Taviraj', serif;
+    font-size: large;
+}
+
+
+.translate {
+    box-sizing: border-box;
+    display: block;
+    width: 110%;
+    min-height: 20vh;
+    /* max-height: 25vh; */
+    overflow:scroll;
+    border: 1px solid var(--black);
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    
+}
+
+footer {
+  /* position: fixed; */
+    /* top: 0; */
+    bottom: 0;
+    width: 100%;
+    padding: 0rem;
+    background-color: var(--primary);
+    text-align: center;
+    align: bottom;
+    /* margin: auto; */
+}
+
+footer p {
+    max-width: var(--width-break);
+    
+    margin: auto;
+}
+
+.right {
+    position: absolute;
+    right: 10px;
+    width: 100%;
+    /* border: 3px solid #73AD21; */
+    padding-right: 5rem;
+  }
+  .center{
+    bottom: 0;
+    width: 100%;
+    padding: 0rem;
+    margin-top: 3rem;
+    background-color: var(--primary);
+    text-align: center;
+  }
+  .img{
+      padding-top:3rem;
+      padding-bottom:1rem;
+      padding-left: 4rem;
+  }
